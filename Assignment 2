@@ -1,0 +1,7 @@
+nstructions:
+
+Using the code  provided in the zip file, I want you to refactor the code so that it fully obeys the open-closed principle. 
+You should be able to add *any* plugin to the music player without having to recode the player or adapter. 
+The music player should be able to play a music file through the plugin you have added (if the plugin supports that music file type). 
+Your solution should have a full suite of unit tests to demonstrate the functionality of the revised code 
+- including a  unit test to demonstrate that an exception is correctly thrown and handled. 
