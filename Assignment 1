@@ -1,0 +1,10 @@
+
+Problem
+As a developer, you are asked to write the Java code for a simple file system. 
+The file system should be able to handle folders and files. 
+Each folder can contain files of different types as well as other folders. 
+Your solution should be able to handle any composition of folders and files.
+There are a number of operations that need to be implemented on the file system:
+•	size(): returns the overall size (e.g. in bytes) of the files and sub-folders contained in any one folder
+•	numFiles(): returns the number of files in any folder, including those in its sub-folders
+•	numFolders(): returns the number of sub-folders in any folder
