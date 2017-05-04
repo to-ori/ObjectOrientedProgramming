@@ -1,0 +1,18 @@
+You are required to create a test class to test the following scenario:
+
+Customer Creates Shopping Cart object 
+Adds 4 items with known cost to cart
+Checks total
+Removes 1 item
+Finalises the cart which creates an order
+Adds a delivery address and a billing address
+finalises order
+adds a valid payment type for the order
+the payment is verified
+an Email object is created.
+If payment was successful, email object contains a message that the order was successful with a statement of the items, items costs and the total
+else  email object contains a message that the order was unsuccessful
+An Email object is 'sent' - not actually, but you should create a send() method. For demo purposes, the send() method should print out the Email message
+Our code passes the test scenario if a successful email is created and the total is correct; You could also test the the scenario where the order is not successful because the payment was not verified.
+
+Please note that the tutorial is is there to give you the gist of a solution. If you see a better way of modelling this solution, feel free to implement it. For example, soon after I finished this tutorial : I had major doubt as to whether a Customer object  should have a ShoppingCart object or whether it should be the other way round. In real life, a customer (being an animate being) has the shopping cart - but in our online scenario, the primary object is the shopping cart. It can exist without a customer, and items can be added to it. Perhaps the customer or customer details are assigned to it only after  the customer signs-in. For example, we've all experienced the situation where you can add things to a shopping cart in an online shop without having to sign in.
