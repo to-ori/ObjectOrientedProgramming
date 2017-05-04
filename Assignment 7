@@ -1,0 +1,9 @@
+Using the attached code, create a simple program that reads input text from the user, inserts it into a Document object and then prints this back to the user
+
+Your program should :
+
+Read the String input
+Create a new Document object
+Using the flyweight approach -  represent  each character of input as a Glyph object. This will requite you to have a GlyphFactory class. It should be a implemented as a singleton
+Add Each Glyph object to the Document. You should choose an appropriate data structure to hold the glyph objects in the Document (constraint: it cannot be  an array, ArrayList or HashMap)
+Finally, you make call a toString method of Document and print the output to the screen
