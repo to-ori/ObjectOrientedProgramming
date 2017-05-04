@@ -1,0 +1,11 @@
+In this lab session, you are going to implement the functionality of a simple weather app using ideas from the observer design pattern.
+The app has a three display widgets:  
+
+StatisticsDisplay:  displays the max, min and mean for the values of the weather data source it is observing
+CurrentConditionsDisplay: simply displays the current weather values of the weather data  source it is observing
+ForecastDisplay: displays a forecast using the following rules: if the pressure has increased since the last data: "sunshine"; if is has stayed the same: "no change"; if the pressure has dropped: " rain"
+The app has four sources of weather data : WeatherData_North, WeatherData_South, WeatherData_East, WeatherData_West.
+
+At any time, a display widget is observing one weather data source and providing display output based on the data received by that source.
+
+Your mission is to implement this functionality and demonstrate how you can register any weather data source with a  display widget, pass new data to the data source and then observe changes in the display widget.
