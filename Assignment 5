@@ -1,0 +1,14 @@
+In this lab assignment you are required to use the Strategy design pattern to create a program involving Avatars that can move around a 2D grid. See the lecture notes and the code I have posted for more detail.
+
+Your programme should be able to request an Avatar to move to any position in the 2 grid. The Avatar should calculate the distance to the new position and based on the distance it will either walk or run (or execute any behaviour you wish to invent).
+
+If  the requested position is already occupied (by another Avatar) then the Avatar cannot move, and it can try again the next time the programme calls it to move (This is easier than the scenario that I suggested in the lecture notes).
+
+Design issues:
+
+What are the main classes?
+What object is going to hold the 2D grid and its data? What are its responsibilities?
+What class is in charge of issuing new coordinates to the Avatar?
+In which class does the distance computation take place?
+Which class is in charge of assigning behaviours?
+You can demonstrate the functionality of your system using a main method.
